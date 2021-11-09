@@ -1,3 +1,5 @@
+![Generic badge](https://img.shields.io/badge/pypi-0.2.2-green.svg)
+
 # devfac-py-logger
 Simple, Colored, File and Line number printable python logger
 
