@@ -1,4 +1,4 @@
-# devfacPyLog
+# devfac-py-logger
 Simple, Colored, File and Line number printable python logger
 
 I wanted to log like this
