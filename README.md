@@ -16,6 +16,8 @@ I wanted to log like this
 [2021-11-09 22:53:41.233][CRC][test_logger.py:43] critical log
 ```
 
+![sample_output](https://github.com/transpine/simple_py_logger/blob/main/sample_output.png?raw=true)
+
 ## How to use
 ```
 from simple_py_logger import log
