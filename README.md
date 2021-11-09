@@ -1,7 +1,8 @@
-# Simple_py_logger
+# devfacPyLog
 Simple, Colored, File and Line number printable python logger
 
 I wanted to log like this
+
 1. colored 
 2. file name
 3. line number
@@ -19,8 +20,9 @@ I wanted to log like this
 ![sample_output](https://github.com/transpine/simple_py_logger/blob/main/sample_output.png?raw=true)
 
 ## How to use
+
 ```
-from simple_py_logger import log
+from devfacPyLogger import log
 
 log.info('info log')
 log.debug('debug log')
@@ -30,8 +32,7 @@ log.critical('critical log')
 ```
 
 ## features
-- 0.2
-  - At jupyter notebook there will be NO filename and line number
+- At jupyter notebook there will be NO filename and line number(0.1)
     ```
     [2021-11-09 23:01:34.591][WRN] warning log
     ```

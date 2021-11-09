@@ -6,7 +6,7 @@
 # Created Date: 2021-11-09 Tuesday 10:18:37
 # Author: transpine(transpine@gmail.com)
 # ----------------------------------------------
-# Last Modified: 2021-11-09 Tuesday 11:02:48
+# Last Modified: 2021-11-09 Tuesday 11:50:53
 # Modified By: transpine
 # ----------------------------------------------
 # Copyright (c) 2021 devfac
@@ -37,14 +37,16 @@
 import setuptools
 
 setuptools.setup(
-    name="simple_py_logger",
-    version="0.2",
+    name="devfacPyLogger",
+    version="0.2.1",
     license='MIT',
     author="transpine",
     author_email="transpine@gmail.com",
     description="Simple, Colored, File and Line number printable logger",
     long_description=open('README.md').read(),
-    url="https://github.com/transpine/simple_py_logger",
+    long_description_content_type="text/markdown",
+    url="https://github.com/transpine/devfacPyLogger",
+    install_requires=["colorlog", "ipython"],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

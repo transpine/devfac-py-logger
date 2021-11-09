@@ -6,7 +6,7 @@
 # Created Date: 2021-11-09 Tuesday 10:46:38
 # Author: transpine(transpine@gmail.com)
 # ----------------------------------------------
-# Last Modified: 2021-11-09 Tuesday 11:01:24
+# Last Modified: 2021-11-09 Tuesday 11:36:47
 # Modified By: transpine
 # ----------------------------------------------
 # Copyright (c) 2021 devfac
@@ -59,7 +59,7 @@ formatter = ColoredFormatter(
 )
 ch.setFormatter(formatter)
 
-log = logging.getLogger('simple_py_logger')
+log = logging.getLogger('devfacPyLogger')
 log.setLevel(logging.DEBUG)
 log.handlers = []       # No duplicated handlers
 log.propagate = False   # workaround for duplicated logs in ipython
